@@ -1,12 +1,10 @@
+import Hero from "./_layouts/Hero"
 import HomeTeste from "./components/teste";
-const home = () => {
-   
-
+export default async function HomePage() {
     return ( 
         <>
+            <Hero />
             <HomeTeste/>
         </>
      );
 }
- 
-export default home;
