@@ -5,6 +5,7 @@ export default async function HomePage() {
         <>
             <Hero />
             <HomeTeste/>
+            <> div inutil</>
         </>
      );
 }
