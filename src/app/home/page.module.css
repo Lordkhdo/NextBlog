@@ -1,6 +1,6 @@
 .section{
     background-color: black;
 }
-.section.active{
-    background-color: rgb(215, 0, 0);
+.span{
+    color:white;
 }
