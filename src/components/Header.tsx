@@ -10,7 +10,7 @@ const Header = () => {
       <header className={styles.BlackColor}>
         <div className={styles.container}>
           <div className={styles.leftContainerHeader}>
-            <img src="/HeaderImgs/FotoWhiteLogo.png" alt="Landscape picture" />
+            <img src="/HeaderImgs/FotoWhiteLogo.png" alt="Foto Logo" />
             <p>coutosolar</p>
           </div>
           <div className={styles.RightContainerHeader}>
