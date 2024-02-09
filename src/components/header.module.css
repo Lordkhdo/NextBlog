@@ -1,0 +1,33 @@
+
+
+.BlackColor{
+    /* background-color: #F14E13; */
+    background-color: transparent;
+    display: flex;
+    height: 44px;
+    justify-content: center;
+}
+.container{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+.leftContainerHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+}
+.leftContainerHeader>img{
+    height: 28px;
+}
+.leftContainerHeader>p{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.RightContainerHeader{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
