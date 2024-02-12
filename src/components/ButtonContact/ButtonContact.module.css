@@ -1,7 +1,10 @@
-.button{
-    background-color: #F14E13;
+.button {
+    background-color: #f14e13;
     box-shadow: 3px 2px 9px -1px rgba(0, 0, 0, 0.382);
     border: none;
     border-radius: 5px;
     padding: 5px 10px;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
 }

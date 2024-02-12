@@ -1,6 +1,47 @@
-.section{
-    background-color: black;
+.span {
+    color: white;
 }
-.span{
-    color:white;
+.centralize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(96, 195, 227);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.headerBox {
+    display: flex;
+    align-items: baseline;
+    padding-top: 20px;
+    width: 250px;
+    gap: 10px;
+}
+.headerBox > input {
+    border: none;
+    border-radius: 50px;
+    padding: 5px 8px;
+}
+.headerBox > button {
+    border: none;
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.bodyBox {
+    padding-top: 25px;
+    width: 240px;
+}
+.bodyBox > p {
+    text-align: left;
+    border-top: 1px solid rgba(0, 0, 0, 0.353);
+    padding-top: 6px;
 }
