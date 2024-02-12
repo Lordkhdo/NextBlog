@@ -1,14 +1,22 @@
 import { useState } from "react";
 
-  const useGabriel = (tac: number):[number, (prop:number)=> void] => {
-    
-      const [estadoAtual, setEstadoAtual] = useState(tac);
+const useCreateNewItem = (
+    prop: string
+): [string, string[], (prop: number) => void, string] => {
+    const [inputValue, setInputValue] = useState<string>(prop); //adicionar ao hook
 
-      const AtualizaçaoDefunçao = (prop: number) => {
-          setEstadoAtual((estAT) => (prop ? estAT + prop : estAT + tac));
-      };
+    const [itemArray, setItemArray] = useState<string[]>([
+        "item1"
+    ]);
 
-      return [estadoAtual, AtualizaçaoDefunçao];
-  };
+    const createNewItem = () => {
+        //adicionar ao hook
+        const tempArr = [...itemArray, inputValue];
+        setItemArray(tempArr);
+        setInputValue("");
+    };
 
-  export default useGabriel;
+    return [inputValue, itemArray, createNewItem, setInputValue];
+};
+
+export default useCreateNewItem;
