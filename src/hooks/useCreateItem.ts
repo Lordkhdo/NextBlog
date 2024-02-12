@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-  const useGabriel = (tac: number) => {
+  const useGabriel = (tac: number):[number, (prop:number)=> void] => {
     
       const [estadoAtual, setEstadoAtual] = useState(tac);
 
