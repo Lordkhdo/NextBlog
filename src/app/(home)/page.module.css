@@ -1,0 +1,5 @@
+.body {
+    background-color: var(--main-color);
+    height: calc(100vh - var(--header-heigth)); /*altura total menos o header */
+    color: white;
+}

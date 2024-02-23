@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --main-color: #2b2b2b;
+    --header-heigth: 62.2px;
+    --width-container:893;
+    
+}

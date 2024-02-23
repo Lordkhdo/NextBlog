@@ -1,0 +1,15 @@
+.Headeer {
+    background-color: #2b2b2b;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    height: 62.2px;
+}
+.Title {
+    font-weight: bold;
+    color: white;
+    margin-top: 43px;
+}
+.container {
+    width: 893px;
+}
