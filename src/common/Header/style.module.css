@@ -1,5 +1,5 @@
 .Headeer {
-    background-color: #2b2b2b;
+    background-color: var(--main-color);
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -11,5 +11,5 @@
     margin-top: 43px;
 }
 .container {
-    width: 893px;
+    width: var(--width-container);
 }

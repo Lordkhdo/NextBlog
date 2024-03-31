@@ -1,0 +1,9 @@
+.NameUser {
+    display: flex;
+    padding-top: 20;
+    gap: 5px;
+}
+.fontStyle {
+    font-weight: 300;
+    font-style: light;
+}

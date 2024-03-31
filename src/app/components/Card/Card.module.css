@@ -1,0 +1,55 @@
+.background {
+    background-color: var(--secondary-color);
+    width: 253px;
+    height: 293px;
+    border-radius: var(--border-standard);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-left: 20px;
+}
+
+/* animação: escala e sombra ao passar o mouse em cima do card */
+.background:hover {
+    transform: scale(1.01);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.277);
+    cursor: pointer;
+}
+.background:active {
+    transform: scale(0.99);
+    transition: transform 0s;
+}
+/* animação: escala e sombra ao passar o mouse em cima do card */
+
+.photo {
+    background-image: url("/homePhotos/Atronauta.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+    border-radius: var(--border-standard);
+}
+.head {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    align-items: start;
+}
+.Centralizar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 144px;
+    height: 118px;
+}
+.BackCreatorName {
+    margin-left: 10px;
+}
+.DateName {
+}
+.BoxHeight {
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

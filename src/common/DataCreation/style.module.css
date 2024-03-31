@@ -1,0 +1,12 @@
+.title {
+    color: rgba(255, 255, 255, 0.504);
+    font-size: 0.8rem;
+    margin-bottom: 3px;
+}
+.text {
+    font-size: 0.7rem;
+}
+.box {
+    margin-top: 20px;
+    margin-left: 6px;
+}

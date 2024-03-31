@@ -1,5 +1,59 @@
 .body {
     background-color: var(--main-color);
-    height: calc(100vh - var(--header-heigth)); /*altura total menos o header */
     color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.container {
+    width: 893px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.containerCard {
+    display: flex;
+    gap: 17px;
+    margin-top: 20px;
+    max-width: 893px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    overflow: hidden;
+    transition: height 1s ease; /* Adiciona a transição de altura */
+}
+
+.containerButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    overflow: hidden;
+}
+.button {
+    border-radius: 50%;
+    border: none;
+
+    transition: transform 0.3s;
+
+    cursor: pointer;
+
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.277);
+    background-color: var(--secondary-color);
+    color: white;
+
+    width: 50px;
+    height: 50px;
+
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+.button:active {
+    transform: scale(0.9);
+    transition: transform 0s;
 }
