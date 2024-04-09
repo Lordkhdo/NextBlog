@@ -4,12 +4,19 @@ import Image from "next/image";
 import { inter } from "@/app/fonts";
 import DataCreation from "@/common/DataCreation/DataCreation";
 
-const CardMain = () => {
+type CardMainProps = {
+    src: string;
+    tituloMain: string;
+    paragrafo: string;
+    name: string;
+};
+
+const CardMain = ({ src, tituloMain, paragrafo, name }: CardMainProps) => {
     return (
         <div className={`${styles.cardMain} ${inter.className}`}>
             <div className={styles.Photo}>
                 <Image
-                    src="/HomePhotos/Atronauta.png" // dado a ser recebido
+                    src={src} // dado a ser recebido
                     alt="imagem temp"
                     quality={100}
                     width={269.59}
@@ -18,18 +25,18 @@ const CardMain = () => {
             </div>
             <div className={styles.Text}>
                 <h2 className={styles.head}>
-                    Desenvolvendo <br /> um site em nextJs {/*  dado a ser recebido */}
+                    {tituloMain} 
                 </h2>
-                <p className={styles.paragraph}> {/*  dado a ser recebido */}
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed 
-                    vehicula quam a orci porta.
+                <p className={styles.paragraph}>
+                 
+                    {paragrafo}
                 </p>
                 <div className={styles.BackCreatorName}>
-                    <CreatorsName />{/*  dado a ser recebido */}
+                    <CreatorsName name={name} />
                 </div>
 
                 <div>
-                    <DataCreation date="gabriel" />{/*  dado a ser recebido */}
+                    <DataCreation date="1/04/2024" />
                 </div>
             </div>
         </div>

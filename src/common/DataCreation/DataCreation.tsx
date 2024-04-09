@@ -1,10 +1,25 @@
-import styles from "./style.module.css"
+import styles from "./style.module.css";
 
-const DataCreation = ({ date }: { date: string }) => (
-  <div className={styles.box}>
-    <p className={styles.title}>Data de criação:</p>
-    <p className={styles.text}>{date}</p>
-  </div>
+type DataCreationProps = {
+    date: string;
+    oneLine?: boolean;
+};
+
+const DataCreation = ({ date, oneLine }: DataCreationProps) => (
+    <div className={styles.box} style={{ display: oneLine ? "flex" : "" }}>
+        <p
+            className={styles.title}
+            style={{ width:"99px" }}
+        >
+            {!oneLine && "Data:"}
+        </p>
+        <p
+            className={styles.text}
+            style={{ fontWeight: oneLine ? "200" : "400" }}
+        >
+            {date}
+        </p>
+    </div>
 );
 
 export default DataCreation;

@@ -5,8 +5,11 @@
 }
 .text {
     font-size: 0.7rem;
+    color: white;
 }
 .box {
-    margin-top: 20px;
-    margin-left: 6px;
+}
+.fontStyle {
+    color: white;
+    font-size: 0.8rem;
 }

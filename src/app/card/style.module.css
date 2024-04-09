@@ -1,0 +1,185 @@
+.container {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
+.button{
+    
+}
+.buttonTransparentContainer{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 986px;
+}
+.DivCentralizer{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.TransparentCard {
+    width: 100%;
+    height: 372px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+
+.background {
+    background-color: var(--secondary-color);
+    width: 323px;
+    height: 313px;
+    border-radius: var(--border-standard);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.photo {
+    background-image: url("/homePhotos/Atronauta.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 211px;
+    border-top-left-radius: var(--border-standard);
+    border-top-right-radius: var(--border-standard);
+    border-bottom: 0;
+}
+.head {
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    align-items: start;
+    color: white;
+}
+.Centralizar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 317px;
+    height: 59px;
+}
+.BackCreatorName {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 35px;
+}
+.DateName {
+}
+.BoxHeight {
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.TextContainer{
+    display: flex;
+    flex-direction: column;
+}
+.Text{
+    color: white;
+    max-width: 652px;
+    max-height: 160px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+    padding-bottom: 10px;
+    letter-spacing: 0.1rem;
+    font-weight: 300;
+}
+.titleText{
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    align-items: start;
+    color: white;
+    font-weight: 500;
+}
+.buttonContainer{
+    display: flex;
+    width: 540px;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+@media screen and (max-width: 955px) {
+    .buttonContainer {
+        margin-top:15px ;
+    }
+}
+@media screen and (max-width: 768px) {
+    .button {
+        margin-left: 10%; /* Exemplo de ajuste para telas menores */
+
+    }
+    .background{
+        margin-bottom: 0;
+    }
+    .container{
+        height: 150vh !important;
+        overflow: hidden;
+    }
+
+    .TransparentCard {
+        flex-direction: column; /* Exemplo de ajuste para telas menores */
+        margin-top: 100px;
+        padding-top: 200px;
+        height: 560px;
+    }
+    .titleText{
+        width: 300px;
+        padding-top: 0;
+    }
+    .TextContainer{
+        align-items: center;
+    }
+    .Text{
+        width: 300px;
+        height: auto;
+        min-height: 50px;
+        max-height: 325px;
+        margin-bottom: 40px;
+    }
+    .buttonContainer{
+        width: 300px;
+    }
+    .RightContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+}
+.buttonCode{
+    width: 180px;
+    height: 45px;
+    border-radius: var(--border-standard);
+    border: none;
+    background-color: var(--secondary-color);
+    color: white;
+    font-size: 1rem;
+
+    font-weight: 600;
+    cursor: pointer;
+}

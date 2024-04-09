@@ -13,7 +13,6 @@
 }
 .containerCard {
     display: flex;
-    gap: 17px;
     margin-top: 20px;
     max-width: 893px;
     justify-content: center;

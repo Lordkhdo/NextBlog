@@ -5,6 +5,9 @@
     border-radius: var(--border-standard);
     transition: transform 0.3s, box-shadow 0.3s;
     margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 /* animação: escala e sombra ao passar o mouse em cima do card */
@@ -32,7 +35,7 @@
     font-size: 1.3rem;
     font-weight: 600;
     padding-top: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     align-items: start;
 }
 .Centralizar {
@@ -43,7 +46,7 @@
     height: 118px;
 }
 .BackCreatorName {
-    margin-left: 10px;
+    margin: 2px auto 10px;
 }
 .DateName {
 }
