@@ -24,6 +24,7 @@ const Card = ({ params }: { params: { id: string } }) => {
                         className={styles.button}
                         onClick={() => IrLinkPagina()}
                     >
+                        <img src="HomePhotos/Arrow 1.svg" alt="dsadas" width={18} />
                         voltar
                     </button>
                 </div>

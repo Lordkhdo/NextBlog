@@ -7,16 +7,28 @@
 }
 
 .button{
-    
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 6px 17px;
+
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    cursor: pointer;
+
 }
 .buttonTransparentContainer{
     display: flex;
     justify-content: start;
     align-items: center;
+
     width: 986px;
 }
 .DivCentralizer{
     width: 100vw;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,7 +36,9 @@
 .TransparentCard {
     width: 100%;
     height: 372px;
+
     border-radius: 10px;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,11 +48,15 @@
 
 
 .background {
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color)
+    ;
     width: 323px;
     height: 313px;
+
     border-radius: var(--border-standard);
+
     transition: transform 0.3s, box-shadow 0.3s;
+
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -50,8 +68,10 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
     width: 100%;
     height: 211px;
+
     border-top-left-radius: var(--border-standard);
     border-top-right-radius: var(--border-standard);
     border-bottom: 0;
@@ -59,15 +79,18 @@
 .head {
     font-size: 1.3rem;
     font-weight: 600;
+
     padding-top: 15px;
     padding-bottom: 20px;
     align-items: start;
+
     color: white;
 }
 .Centralizar {
     display: flex;
     justify-content: center;
     align-items: center;
+
     width: 317px;
     height: 59px;
 }
@@ -134,6 +157,7 @@
     }
     .background{
         margin-bottom: 0;
+        height: 313px;
     }
     .container{
         height: 150vh !important;
@@ -168,6 +192,10 @@
         flex-direction: column;
         align-items: center;
         margin-top: 30px;
+    }
+
+    .Centralizar{
+        padding-bottom: 18px;
     }
 
 }
